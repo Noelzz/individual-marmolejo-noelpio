@@ -26,24 +26,12 @@ public class Activity2_Marmolejo {
         // Display results
         System.out.println("===== Activity 2: Income and Expenses =====");
         System.out.println("Income: " + income);
-
         System.out.printf("Food Allowance: %.2f (%.1f%%)%n", foodAllowance, foodPercentage);
-
-        System.out.printf("Transportation: %.2f (%.1f%%)%n",
-                transportation, transportationPercentage);
-
-        System.out.printf("Rent: %.2f (%.1f%%)%n",
-                rent, rentPercentage);
-
-        System.out.printf("Utility Bill: %.2f (%.1f%%)%n",
-                utilityBill, utilityPercentage);
-
+        System.out.printf("Transportation: %.2f (%.1f%%)%n", transportation, transportationPercentage);
+        System.out.printf("Rent: %.2f (%.1f%%)%n", rent, rentPercentage);
+        System.out.printf("Utility Bill: %.2f (%.1f%%)%n", utilityBill, utilityPercentage);
         System.out.println();
-
-        System.out.printf("Total Expenses: %.2f (%.1f%%)%n",
-                totalExpenses, totalExpensesPercentage);
-
-        System.out.printf("Remaining Balance: %.2f (%.1f%%)%n",
-                remainingBalance, remainingPercentage);
+        System.out.printf("Total Expenses: %.2f (%.1f%%)%n", totalExpenses, totalExpensesPercentage);
+        System.out.printf("Remaining Balance: %.2f (%.1f%%)%n", remainingBalance, remainingPercentage);
     }
 }
