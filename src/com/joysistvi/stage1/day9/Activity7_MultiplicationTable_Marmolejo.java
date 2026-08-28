@@ -11,7 +11,7 @@ public class Activity7_MultiplicationTable_Marmolejo {
         char again;
 
         do {
-            System.out.print("Enter a multiplication table (1-10): ");
+            System.out.print("Enter a multiplication table : ");
             int number = scanner.nextInt();
 
             System.out.println("\nMultiplication Table of " + number);
