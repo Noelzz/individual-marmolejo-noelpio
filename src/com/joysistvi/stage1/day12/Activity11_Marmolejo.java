@@ -105,6 +105,7 @@ public class Activity11_Marmolejo {
         10. log()
         Description: Returns the natural logarithm of a number using base e.
         Syntax: Math.log(number)
+        e = 2.718281828459045
         */
         double logNumber = 10;
 
@@ -127,6 +128,7 @@ public class Activity11_Marmolejo {
         12. exp()
         Description: Returns e raised to the power of a specified number.
         Syntax: Math.exp(number)
+        e = 2.718281828459045
         */
         double expNumber = 2;
 
